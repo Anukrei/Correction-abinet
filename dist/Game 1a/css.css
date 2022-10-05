@@ -1,0 +1,135 @@
+body{
+  background-image: url(images/bgr.jpg);
+  overflow: hidden;
+}
+.trains{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.zindex{
+  position: relative;
+}
+.zindex1{
+  position: relative;
+}
+.zindex2{
+  position: relative;
+}
+.zindex3{
+  position: relative;
+}
+.zindex4{
+  position: relative;
+}
+.zindex5{
+  position: relative;
+}
+
+.imagesTrain{
+  position: absolute;
+  top: 0px;
+  left: 135px;
+  
+  width: 119px;
+  height: 47px;
+  
+}
+.proClass{
+  
+  width: 57px;
+}
+.flexB{
+  display: flex;
+  justify-content: center;
+}
+.train1{
+  position: absolute;
+  top: 55px;
+  left: 29px;
+  width: 109px;
+  height: 100px;
+
+}
+.train2{
+  position: absolute;
+  top: 55px;
+  left: 139px;
+  width: 109px;
+  height: 100px;
+
+ 
+}
+.train3{
+  position: absolute;
+  top: 55px;
+  left: 29px;
+  width: 109px;
+  height: 100px;
+
+}
+.train4{
+  position: absolute;
+  top: 55px;
+  left: 139px;
+  width: 109px;
+  height: 100px;
+
+}
+
+.train5{
+  position: absolute;
+  top: 55px;
+  left: 29px;
+  width: 109px;
+  height: 100px;
+
+}
+.train6{
+  position: absolute;
+  top: 55px;
+  left: 139px;
+  width: 109px;
+  height: 100px;
+
+}
+.train7{
+  position: absolute;
+  top: 55px;
+  left: 29px;
+  width: 109px;
+  height: 100px;
+
+}
+.train8{
+  position: absolute;
+  top: 55px;
+  left: 139px;
+  width: 109px;
+  height: 100px;
+ 
+}
+
+
+
+.Ima{
+  width: 150px;
+  height: 120px;
+  margin-left: 10px;
+}
+.Imas{
+  width: 249px;
+  height: 219px;
+  margin-left: 10px;
+}
+
+.boxImages{
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

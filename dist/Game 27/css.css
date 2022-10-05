@@ -1,0 +1,190 @@
+body{
+  background-image: url(images/bgr.jpg);
+}
+.trains{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.zindex{
+  position: relative;
+  
+}
+.zindex1{
+  position: relative;
+}
+.zindex2{
+  position: relative;
+}
+.zindex3{
+  position: relative;
+}
+.zindex4{
+  position: relative;
+}
+.zindex5{
+  position: relative;
+}
+
+.imagesTrain{
+  width: 300px;
+  height: 50px;
+}
+.imgZind{
+  width: 170px;
+  height: 120px;
+  margin-left: 30%;
+}
+
+.train1{
+ 
+  position: absolute;
+  top: 124px;
+  height: 49px;
+  left: 0px;
+  width: 97px;
+  
+}
+.train2{
+  position: absolute;
+  top: 124px;
+  height: 49px;
+  left: 100px;
+  width: 97px;
+ 
+}
+.train3{
+  
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  width: 97px;
+  height: 49px;
+}
+.train4{
+  
+  position: absolute;
+  top: 124px;
+  left: 199px;
+  width: 97px;
+  height: 49px;
+}
+
+
+
+.train5{
+  
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  width: 97px;
+  height: 49px;
+}
+.train6{
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  width: 97px;
+  height: 49px;
+}
+.train7{
+  position: absolute;
+  top: 124px;
+  left: 100px;
+  width: 97px;
+  height: 49px;
+}
+.train8{
+  position: absolute;
+  top: 124px;
+  left: 200px;
+  width: 97px;
+  height: 49px;
+}
+.train9{
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  width: 97px;
+  height: 49px;
+}
+.train10{
+  position: absolute;
+  top: 124px;
+  left: 200px;
+  width: 97px;
+  height: 49px;
+}
+.train11{
+  position: absolute;
+  top: 124px;
+  left: 100px;
+  width: 97px;
+  height: 49px;
+}
+.train12{
+  position: absolute;
+  top: 124px;
+  left: 200px;
+  width: 97px;
+  height: 49px;
+}
+.train13{
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  width: 97px;
+  height: 49px;
+}
+.train14{
+  position: absolute;
+  top: 124px;
+  left: 100px;
+  width: 97px;
+  height: 49px;
+}
+.train15{
+  position: absolute;
+  top: 124px;
+  left: 100px;
+  width: 97px;
+  height: 49px;
+}
+.train16{
+  position: absolute;
+  top: 124px;
+  left: 200px;
+  width: 97px;
+  height: 49px;
+}
+.train17{
+  position: absolute;
+  top: 124px;
+  left: 100px;
+  width: 97px;
+  height: 49px;
+}
+.train18{
+  position: absolute;
+  top: 124px;
+  left: 200px;
+  width: 97px;
+  height: 49px;
+}
+
+
+.Ima{
+  width: 129px;
+  height: 52px;
+}
+
+.boxImages{
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

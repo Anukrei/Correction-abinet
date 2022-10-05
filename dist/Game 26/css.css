@@ -1,0 +1,106 @@
+body{
+  background-image: url(images/bgr.jpg);
+}
+.trains{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+
+  
+
+}
+.zindex{
+  position: relative;
+  
+}
+.zindex1{
+  position: relative;
+}
+
+.imagesTrain{
+  width: 499px;
+  height: 450px;
+ 
+}
+
+
+.train1{
+  display: flex;
+  position: absolute;
+  top: 195px;
+  left: 50px;
+  width: 70px;
+  height: 70px;
+  
+}
+.train2{
+  position: absolute;
+  top: 195px;
+  left: 125px;
+  width: 70px;
+  height: 70px;
+  
+}
+.train3{
+  position: absolute;
+  top: 195px;
+  left: 199px;
+  width: 70px;
+  height: 70px;
+
+}
+
+
+
+
+.train5{
+  position: absolute;
+  top: 195px;
+  left: 269px;
+  width: 70px;
+  height: 70px;
+}
+
+
+.train6{
+  display: flex;
+  position: absolute;
+  top: 195px;
+  left: 339px;
+  width: 70px;
+  height: 70px;
+}
+.train7{
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  width: 70px;
+  height: 120px; 
+  border: 1px solid rebeccapurple;
+}
+.train8{
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 220px;
+  width: 70px;
+  height: 120px;
+  border: 1px solid rebeccapurple;
+ 
+}
+
+.Ima{
+  width: 120px;
+  height: 120px;
+}
+
+.boxImages{
+  width: 100%;
+  height: 120px;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,335 @@
+@font-face {
+  font-family: "Inform";
+  src: url("fonts/InformTT.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body{
+overflow: hidden;
+}
+
+
+.headdiv{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+
+
+.cont {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+
+}
+.pro{
+  
+  width: 250px;
+  height: 130px;
+  border-radius:10px;
+  border: 3px solid rebeccapurple;
+  
+}
+.pro1{
+  position: absolute;
+  width: 319px;
+  height: 319px;
+  top: 159px;
+}
+
+
+.gradient-border{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .z{
+  width: 100%;
+  height: 200px;
+  border:1px solid red
+}
+.z2{
+  display: flex;
+  
+} */
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  color: white;
+  font-family: "Raleway";
+  font-size: 2.5rem;
+}
+
+
+
+
+#imgItemHi {
+  height: 350px;
+}
+
+.imgItem {
+  width: 250px;
+  height: 320px;
+}
+
+#ball {
+  height: 220px;
+}
+
+
+
+
+
+ul {
+  margin: 30px auto;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+@-moz-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.dfsd{
+  position: relative;
+
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+.round {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+  letter-spacing: -0.065em;
+  font-family: "Hammersmith One", sans-serif;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 300px;
+  z-index: 1;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.round:hover {
+  width: 130%;
+  height: 130%;
+  left: -15%;
+  top: -15%;
+  font-size: 33px;
+  padding-top: 38px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  border-size: 10px;
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+a.red {
+  background-color: rgba(239, 57, 50, 1);
+  color: rgba(133, 32, 28, 1);
+  border-color: rgba(133, 32, 28, 0.2);
+}
+
+a.red:hover {
+  color: rgba(239, 57, 50, 1);
+}
+
+a.green {
+  background-color: rgba(1, 151, 171, 1);
+  color: rgba(0, 63, 71, 1);
+  border-color: rgba(0, 63, 71, 0.2);
+}
+
+a.green:hover {
+  color: rgba(1, 151, 171, 1);
+}
+
+a.yellow {
+  background-color: rgba(252, 227, 1, 1);
+  color: rgba(153, 38, 0, 1);
+  border-color: rgba(153, 38, 0, 0.2);
+}
+
+a.yellow:hover {
+  color: rgba(252, 227, 1, 1);
+}
+
+.round span.round {
+  display: block;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  font-size: 1px;
+  border: none;
+  padding: 40% 20% 0 20%;
+  color: #fff;
+}
+
+.round span:hover {
+  opacity: 0.85;
+  font-size: 16px;
+  -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -o-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.green span {
+  background: rgba(0, 63, 71, 0.7);
+}
+
+.red span {
+  background: rgba(133, 32, 28, 0.7);
+}
+
+.yellow span {
+  background: rgba(161, 145, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+/* //border */
+
+
+body {
+  height: 100%;
+  --borderWidth: 3px;
+
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+body:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  -webkit-animation: animatedgradient 3s ease alternate infinite;
+          animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@-webkit-keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.boxTrue {
+  font-size: 24px;
+  border:5px solid black;
+  border-radius: 20px;
+  resize: both;
+  background: #03471833;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+

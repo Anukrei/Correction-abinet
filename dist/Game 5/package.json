@@ -1,0 +1,11 @@
+{
+  "name": "testobg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "json-server -w db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

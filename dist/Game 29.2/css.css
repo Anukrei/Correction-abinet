@@ -1,0 +1,119 @@
+body{
+  background-image: url(images/bgr.jpg); 
+}
+.trains{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.zindex{
+  position: relative;
+  
+}
+.zindex1{
+  position: relative;
+}
+.zindex2{
+  position: relative;
+}
+
+.imagesTrain{
+  width: 300px;
+  height: 250px;
+}
+
+
+.train1{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 70px;
+  height: 80px;
+}
+.train2{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  width: 70px;
+  height: 80px;
+
+}
+.train3{
+  
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  width: 70px;
+  height: 80px;
+
+}
+
+
+
+
+.train5{
+
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 70px;
+  height: 80px;
+
+}
+.train6{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  width: 70px;
+  height: 80px; 
+
+}
+.train7{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  width: 70px;
+  height: 80px; 
+
+}
+
+
+
+.train9{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 80px;
+  height: 80px; 
+
+}
+.train10{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  width: 80px;
+  height: 80px; 
+
+}
+
+
+.Ima{
+  width: 120px;
+  height: 120px;
+}
+
+.boxImages{
+  width: 100%;
+  height: 120px;
+  margin-bottom: 22%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
