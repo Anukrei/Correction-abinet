@@ -44,23 +44,24 @@ body{
 .train1{
  
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 0px;
   width: 97px;
   height: 47px;
+  border: 1px solid rebeccapurple;
 }
 .train2{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 100px;
   width: 97px;
   height: 47px;
- 
+  border: 1px solid rebeccapurple;
 }
 .train3{
   
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 0px;
   width: 97px;
   height: 47px;
@@ -68,7 +69,7 @@ body{
 .train4{
   
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 199px;
   width: 97px;
   height: 47px;
@@ -79,98 +80,99 @@ body{
 .train5{
   
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 0px;
   width: 97px;
   height: 47px;
 }
 .train6{
+  border: 1px solid rebeccapurple;
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 0px;
   width: 97px;
   height: 47px;
 }
 .train7{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 100px;
   width: 97px;
   height: 47px;
 }
 .train8{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 200px;
   width: 97px;
   height: 47px;
 }
 .train9{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 0px;
   width: 97px;
   height: 47px;
 }
 .train10{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 200px;
   width: 97px;
   height: 47px;
 }
 .train11{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 100px;
   width: 97px;
   height: 47px;
 }
 .train12{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 200px;
   width: 97px;
   height: 47px;
 }
 .train13{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 0px;
   width: 97px;
   height: 47px;
 }
 .train14{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 100px;
   width: 97px;
   height: 47px;
 }
 .train15{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 100px;
   width: 97px;
   height: 47px;
 }
 .train16{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 200px;
   width: 97px;
   height: 47px;
 }
 .train17{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 100px;
   width: 97px;
   height: 47px;
 }
 .train18{
   position: absolute;
-  top: 124px;
+  top: 133px;
   left: 200px;
   width: 97px;
   height: 47px;

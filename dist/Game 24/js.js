@@ -150,8 +150,9 @@ bImages.forEach((i)=>{
    b6.ondrop = dropFn6
    function dropFn6(e){
      let item = e.dataTransfer.getData('id')
+     
      console.log(item)
-     if(item==='img1.png'||item==='img2.png'||item==='img3.png'){
+     if(item==='img4.png'||item==='img5.png'||item==='img6.png'){
       fnTrue()
       let a = e.target.id
       let ee = document.getElementById(item)
@@ -275,11 +276,11 @@ bImages.forEach((i)=>{
       fnFalse()
      }
    }
-   b14.ondrop = dropFn6
-   function dropFn6(e){
+   b14.ondrop = dropFn14
+   function dropFn14(e){
      let item = e.dataTransfer.getData('id')
      console.log(item)
-     if(item==='img4.png'){
+     if(item==='img4'){
       fnTrue()
       let a = e.target.id
       let ee = document.getElementById(item)
@@ -295,7 +296,7 @@ bImages.forEach((i)=>{
    function dropFn15(e){
      let item = e.dataTransfer.getData('id')
      console.log(item)
-     if(item==='img4.png'){
+     if(item==='img4'){
       fnTrue()
       let a = e.target.id
       let ee = document.getElementById(item)
@@ -311,7 +312,7 @@ bImages.forEach((i)=>{
    function dropFn16(e){
      let item = e.dataTransfer.getData('id')
      console.log(item)
-     if(item==='img4.png'){
+     if(item==='img4g'){
       fnTrue()
       let a = e.target.id
       let ee = document.getElementById(item)
