@@ -71,14 +71,15 @@ function fnTrue() {
       isProverkaTrue = true;
 
     };
-    return count[0]
+   
   }
-  
+  return count[0]
 }
 
 function fnTrue1() {
   
   if (isProverkaTrue) {
+
     isProverkaTrue = false; 
     let aud = new Audio();
     aud.src = `Sonds/${count[0]}`;
@@ -117,16 +118,14 @@ function fn (){
   })
 }
 
-let isProverkaTrue2 = true;
-
 function sondePositive() {
-    if(isProverkaTrue2){
-      isProverkaTrue2 = false;
+    if(isProverkaTrue){
+      isProverkaTrue = false;
       let aud = new Audio();
-      aud.src = "sonds/TrueApp.mp3";
+      aud.src = "Sonds/TrueApp.mp3";
       aud.play();
       aud.onended = () => {
-        isProverkaTrue2 = true;
+        isProverkaTrue = true;
       };
     }
 
@@ -134,14 +133,14 @@ function sondePositive() {
 }
 
 function sondeNegative() {
-  if(isProverkaTrue2){
-    isProverkaTrue2 = false;
+  if(isProverkaTrue){
+    isProverkaTrue = false;
     const aud1 = new Audio();
     aud1.id = "aux";
-    aud1.src = "sonds/FalseApp.mp3";
+    aud1.src = "Sonds/FalseApp.mp3";
     aud1.play();
     aud1.onended = () => {
-      isProverkaTrue2 = true;
+      isProverkaTrue = true;
     };
   }
 
