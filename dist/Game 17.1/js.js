@@ -8,6 +8,7 @@ let arr = ["aw1.mp3", "aw2.mp3", "aw3.mp3", "aw4.mp3"];
 function Images(arraY) {
 
   imagesCollect.innerHTML = `
+  <div> <button id="repit">Повторить предыдущий звук</button></div>
   <div class="gradient-border"><div class="d"><img src="images/hty.png" class='pro1' id='sf' alt=""></div> </div> 
   <div id="container" class="cont">
 
@@ -16,7 +17,7 @@ function Images(arraY) {
   <div class="boxImg"><img  src="images/Page3.png" class='pro' id='aw2.mp3'alt=""></div>
   <div class="boxImg"><img src="images/Page4.jpg" class='pro' id='aw1.mp3'alt=""></div>  
 </div>
-<button id="repit">Повторить предыдущий звук</button>
+
 </div>
   `;
 }

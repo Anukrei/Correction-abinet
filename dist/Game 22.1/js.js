@@ -51,7 +51,9 @@ console.log(Images(arr))
 
   call.addEventListener("click", () => {
    res = fnTrue()
+   console.log(res)
    repit.addEventListener('click',()=>{
+    
     repitFn(res)
    }) 
   });
@@ -90,9 +92,9 @@ function repitFn (item){
     
   }
 }
-
+let a = undefined
 function fnTrue() {
-    let a = undefined
+    
    if (isProverkaTrue) {
     isProverkaTrue = false;
      a = arr.splice(0,1)
@@ -117,7 +119,7 @@ function sondePositive() {
   if(isProverkaTrue){
     isProverkaTrue= false
     let aud = new Audio();
-    aud.src = "sonds/TrueApp.mp3";
+    aud.src = "Sonds/TrueApp.mp3";
     aud.play();
     aud.onended = () => {
       isProverkaTrue = true;
@@ -132,7 +134,7 @@ function sondeNegative() {
     isProverkaTrue= false
     const aud1 = new Audio();
     aud1.id = "aux";
-    aud1.src = "sonds/FalseApp.mp3";
+    aud1.src = "Sonds/FalseApp.mp3";
     aud1.play();
     aud1.onended = () => {
       isProverkaTrue = true;

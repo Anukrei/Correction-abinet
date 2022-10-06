@@ -134,25 +134,30 @@ function Images(arraY) {
       });
     });
     function sondePositive() {
+      if(isProverkaTrue){
       isProverkaTrue = false;
-
       let aud = new Audio();
       aud.src = "00397_FbVsvNYg.mp3";
       aud.play();
       aud.onended = () => {
         isProverkaTrue = true;
       };
+      }
+      
     }
 
     function sondeNegative() {
-      isProverkaTrue = false;
-      const aud1 = new Audio();
-      aud1.id = "aux";
-      aud1.src = "__kirbydx__wah-wah-sad-trombone.mp3";
-      aud1.play();
-      aud1.onended = () => {
-        isProverkaTrue = true;
-      };
+      if(isProverkaTrue){
+        isProverkaTrue = false;
+        const aud1 = new Audio();
+        aud1.id = "aux";
+        aud1.src = "tyu.mp3";
+        aud1.play();
+        aud1.onended = () => {
+          isProverkaTrue = true;
+        };
+      }
+
     }
   });
 
